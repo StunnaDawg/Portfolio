@@ -20,8 +20,8 @@ export const NavBar = () => {
           </div>
         </div>
       </div>
-      <div className={`container ${isLoading ? "loading" : ""} grow`}>
-        <Outlet />
+      <div className={`${isLoading ? "loading" : ""}`}>
+        <Outlet className="h-screen" />
       </div>
       <div>
         <Footer />
