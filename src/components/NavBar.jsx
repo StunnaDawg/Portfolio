@@ -1,4 +1,5 @@
 import { Link, Outlet, useNavigation } from "react-router-dom"
+import { Footer } from "./Footer"
 
 export const NavBar = () => {
   const { state } = useNavigation()
@@ -6,9 +7,8 @@ export const NavBar = () => {
 
   return (
     <>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row justify-center my-6">
         <div className="flex flex-col">
-          <div>Jonson Allen</div>
           <div className="flex flex-row justify-between">
             <div>
               <Link to="about">About</Link>
@@ -20,8 +20,11 @@ export const NavBar = () => {
           </div>
         </div>
       </div>
-      <div className={`container ${isLoading ? "loading" : ""}`}>
+      <div className={`container ${isLoading ? "loading" : ""} grow`}>
         <Outlet />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   )
