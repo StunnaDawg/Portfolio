@@ -7,7 +7,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <div className="flex flex-row justify-center font-bold pt-4 text-3xl bg-sky-600">
+      <div className="flex flex-row justify-center font-bold pt-4 pb-1 text-3xl bg-sky-600">
         <div>
           <Link to="about">About</Link>
         </div>
