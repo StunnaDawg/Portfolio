@@ -7,17 +7,13 @@ export const NavBar = () => {
 
   return (
     <>
-      <div className="flex flex-row justify-center my-6">
-        <div className="flex flex-col">
-          <div className="flex flex-row js">
-            <div>
-              <Link to="about">About</Link>
-            </div>
-
-            <div>
-              <Link to="projects">Projects</Link>
-            </div>
-          </div>
+      <div className="flex flex-row justify-center font-bold pt-4 text-3xl bg-sky-600">
+        <div>
+          <Link to="about">About</Link>
+        </div>
+        <div className="mx-2">|</div>
+        <div>
+          <Link to="projects">Projects</Link>
         </div>
       </div>
       <div className={`${isLoading ? "loading" : ""}`}>
