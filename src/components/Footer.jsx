@@ -1,7 +1,9 @@
 export const Footer = () => {
   return (
     <>
-      <div className="grow-0 mt-20">Footer</div>
+      <div className="grow-0 flex flex-row justify-center text-center">
+        <p>@Jonson Allen</p>
+      </div>
     </>
   )
 }

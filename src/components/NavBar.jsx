@@ -9,7 +9,7 @@ export const NavBar = () => {
     <>
       <div className="flex flex-row justify-center my-6">
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between">
+          <div className="flex flex-row js">
             <div>
               <Link to="about">About</Link>
             </div>
