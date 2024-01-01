@@ -1,34 +1,45 @@
+import { PortfolioCard } from "../components/PortfolioCard"
+
 export const PortfolioPage = () => {
   return (
     <>
       <div className="flex flex-row justify-center">
         <div className="flex flex-col content-center">
-          <div className="my-8 border-4 p-20">
-            <h1>Project 1</h1>
-            <p>Insert Description</p>
-          </div>
+          <PortfolioCard
+            title="Rehab Plus"
+            description="Rehab Plus is a post-surgical/injury recovery application. Built with React Native/ TypeScript, React Navigation, and Firebase Backend Integration"
+            githubLink="https://github.com/StunnaDawg/RehabPlus"
+          />
 
-          <div className="my-8 border-4 p-20">
-            <h1>Project 2</h1>
-            <p>Insert Description</p>
-            <button>Read More</button>
-          </div>
+          <PortfolioCard
+            title="PokeGuesser"
+            description="A Pokemon Name guessing game, built using TypeScript and React with a Firebase Backend Integration"
+            githubLink="https://github.com/StunnaDawg/PokeGuesser"
+          />
 
-          <div className="my-8 border-4 p-20">
-            <h1>Project 3</h1>
-            <p>Insert Description</p>
-            <button></button>
-          </div>
+          <PortfolioCard
+            title="Head To Head"
+            description="Sports Betting game that puts Athletes from the same sport or different sports head to head. Built using TypeScript, React, and Go for the Backend"
+            githubLink="https://github.com/StunnaDawg/Head-To-Head"
+          />
 
-          <div className="my-8 border-4 p-20">
-            <h1>Project 4</h1>
-            <p>Insert Description</p>
-          </div>
+          <PortfolioCard
+            title="FitBuilder"
+            description="A Exercise Program Builder, built with React and Apollo Client and GraphQL to interact with the server-side API"
+            githubLink="https://github.com/Pilotguide9897/FitBuilder"
+          />
 
-          <div className="my-8 border-4 p-20">
-            <h1>Project 5</h1>
-            <p>Insert Description</p>
-          </div>
+          <PortfolioCard
+            title="English Football Tracker"
+            description="Non-Premier League statistics tracker built using Vanilla Javascript"
+            githubLink="https://github.com/roseandlily33/englishFootballTracker32"
+          />
+
+          <PortfolioCard
+            title="Super Budget Tracker"
+            description="A Budget Tracker built using NodeJS and HandleBars"
+            githubLink="https://github.com/Valerigionetnoel/Budget-tracker"
+          />
         </div>
       </div>
     </>
