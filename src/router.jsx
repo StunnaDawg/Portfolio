@@ -38,14 +38,15 @@ export const router = createBrowserRouter([
           {
             path: "projects",
             element: <PortfolioPage />,
-            children: [
-              { path: "rehabplus", element: <RehabPlus /> },
-              { path: "head-to-head", element: <HeadToHead /> },
-              { path: "pokeguesser", element: <PokeGuesser /> },
-              { path: "fit-builder", element: <FitBuilder /> },
-              { path: "football-tracker", element: <FootballTracker /> },
-              { path: "super-budget-tracker", element: <SuperBudgetTracker /> },
-            ],
+          },
+          { path: "projects/rehabplus", element: <RehabPlus /> },
+          { path: "projects/head-to-head", element: <HeadToHead /> },
+          { path: "projects/pokeguesser", element: <PokeGuesser /> },
+          { path: "projects/fit-builder", element: <FitBuilder /> },
+          { path: "projects/football-tracker", element: <FootballTracker /> },
+          {
+            path: "projects/super-budget-tracker",
+            element: <SuperBudgetTracker />,
           },
         ],
       },

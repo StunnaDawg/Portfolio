@@ -29,7 +29,7 @@ export const PortfolioCard = ({
             </button>
           </a>
           <button className="underline">
-            <Link to={readLink}>Read More</Link>
+            <Link to={`${readLink}`}>Read More</Link>
           </button>
         </div>
       </div>
