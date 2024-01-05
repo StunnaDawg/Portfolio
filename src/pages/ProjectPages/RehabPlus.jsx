@@ -1,8 +1,9 @@
+import ProjectInfo from "../../components/ProjectInfo"
+
 const RehabPlus = () => {
   return (
     <>
-      <div>Rehab Plus</div>
-      <div>Rennnder</div>
+      <ProjectInfo title="RehabPlus" description="Description" />
     </>
   )
 }
