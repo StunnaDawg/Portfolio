@@ -1,7 +1,14 @@
+import ProjectInfo from "../../components/ProjectInfo"
+
 const FitBuilder = () => {
   return (
     <>
-      <div>FitBuilder</div>
+      <ProjectInfo
+        title="FitBuilder"
+        challengeDescription="Challenges faced"
+        roleDescription="Front End"
+        toolsDescription="Tools"
+      />
     </>
   )
 }

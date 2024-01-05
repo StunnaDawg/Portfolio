@@ -1,7 +1,14 @@
+import ProjectInfo from "../../components/ProjectInfo"
+
 const FootballTracker = () => {
   return (
     <>
-      <div>Football Tracker</div>
+      <ProjectInfo
+        title="English Football Tracker"
+        challengeDescription="Challenges faced"
+        roleDescription="Front End"
+        toolsDescription="Tools"
+      />
     </>
   )
 }

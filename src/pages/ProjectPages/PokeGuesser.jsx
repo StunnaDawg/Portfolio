@@ -1,7 +1,14 @@
+import ProjectInfo from "../../components/ProjectInfo"
+
 const PokeGuesser = () => {
   return (
     <>
-      <div>PokeGuesser</div>
+      <ProjectInfo
+        title="PokeGuesser"
+        challengeDescription="Challenges faced"
+        roleDescription="Front End"
+        toolsDescription="Tools"
+      />
     </>
   )
 }

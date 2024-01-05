@@ -1,7 +1,12 @@
 const SuperBudgetTracker = () => {
   return (
     <>
-      <div>Super Budget Tracker</div>
+      <ProjectInfo
+        title="Super Budget Tracker"
+        challengeDescription="Challenges faced"
+        roleDescription="Front End"
+        toolsDescription="Tools"
+      />
     </>
   )
 }

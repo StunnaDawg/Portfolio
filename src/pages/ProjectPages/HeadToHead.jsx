@@ -1,7 +1,14 @@
+import ProjectInfo from "../../components/ProjectInfo"
+
 const HeadToHead = () => {
   return (
     <>
-      <div>Head To Head</div>
+      <ProjectInfo
+        title="Head To Head"
+        challengeDescription="Challenges faced"
+        roleDescription="Front End"
+        toolsDescription="Tools"
+      />
     </>
   )
 }
