@@ -1,4 +1,8 @@
-import { Navigate, createBrowserRouter } from "react-router-dom"
+import {
+  Navigate,
+  createBrowserRouter,
+  createHashRouter,
+} from "react-router-dom"
 import { NavBar } from "./components/NavBar"
 import { MainPage } from "./pages/MainPage"
 import { PortfolioPage } from "./pages/PortfolioPage"
@@ -25,7 +29,7 @@ function ErrorPage() {
   )
 }
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <NavBar />,
