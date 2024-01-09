@@ -2,7 +2,12 @@ import { Navigate, createBrowserRouter } from "react-router-dom"
 import { NavBar } from "./components/NavBar"
 import { MainPage } from "./pages/MainPage"
 import { PortfolioPage } from "./pages/PortfolioPage"
-import { PortfolioView } from "./pages/PortfolioView"
+import HeadToHead from "./pages/ProjectPages/HeadToHead"
+import RehabPlus from "./pages/ProjectPages/RehabPlus"
+import PokeGuesser from "./pages/ProjectPages/PokeGuesser"
+import FitBuilder from "./pages/ProjectPages/FitBuilder"
+import SuperBudgetTracker from "./pages/ProjectPages/SuperBudger"
+import FootballTracker from "./pages/ProjectPages/FootballTracker"
 
 function ErrorPage() {
   // const error  = useRouteError()
@@ -33,13 +38,15 @@ export const router = createBrowserRouter([
           {
             path: "projects",
             element: <PortfolioPage />,
-            children: [
-              { path: "project-1", element: <PortfolioView /> },
-              { path: "project-2", element: <PortfolioView /> },
-              { path: "project-3", element: <PortfolioView /> },
-              { path: "project-4", element: <PortfolioView /> },
-              { path: "project-5", element: <PortfolioView /> },
-            ],
+          },
+          { path: "projects/rehabplus", element: <RehabPlus /> },
+          { path: "projects/head-to-head", element: <HeadToHead /> },
+          { path: "projects/pokeguesser", element: <PokeGuesser /> },
+          { path: "projects/fit-builder", element: <FitBuilder /> },
+          { path: "projects/football-tracker", element: <FootballTracker /> },
+          {
+            path: "projects/super-budget-tracker",
+            element: <SuperBudgetTracker />,
           },
         ],
       },
