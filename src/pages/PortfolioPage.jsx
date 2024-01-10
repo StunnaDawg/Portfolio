@@ -40,12 +40,12 @@ export const PortfolioPage = () => {
             readLink={"super-budget-tracker"}
           />
 
-          <PortfolioCard
+          {/* <PortfolioCard
             title="Head To Head"
             description="Sports Betting game that puts Athletes from the same sport or different sports head to head. Built using TypeScript, React, and Go for the Backend"
             githubLink="https://github.com/StunnaDawg/Head-To-Head"
             readLink={"head-to-head"}
-          />
+          /> */}
         </div>
       </div>
     </>
