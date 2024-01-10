@@ -5,9 +5,11 @@ const HeadToHead = () => {
     <>
       <ProjectInfo
         title="Head To Head"
-        challengeDescription="Challenges faced"
-        roleDescription="Front End"
-        toolsDescription="Tools"
+        challengeDescription="N/A"
+        roleDescription="FullStack Developer"
+        toolsDescription="TypeScript, React, Go-Lang"
+        status={"Early Phase"}
+        gitHub={"https://github.com/StunnaDawg/Head-To-Head"}
       />
     </>
   )

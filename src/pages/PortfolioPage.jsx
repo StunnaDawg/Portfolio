@@ -20,13 +20,6 @@ export const PortfolioPage = () => {
           />
 
           <PortfolioCard
-            title="Head To Head"
-            description="Sports Betting game that puts Athletes from the same sport or different sports head to head. Built using TypeScript, React, and Go for the Backend"
-            githubLink="https://github.com/StunnaDawg/Head-To-Head"
-            readLink={"head-to-head"}
-          />
-
-          <PortfolioCard
             title="FitBuilder"
             description="A Exercise Program Builder, built with React and Apollo Client and GraphQL to interact with the server-side API"
             githubLink="https://github.com/Pilotguide9897/FitBuilder"
@@ -45,6 +38,13 @@ export const PortfolioPage = () => {
             description="A Budget Tracker built using NodeJS and HandleBars"
             githubLink="https://github.com/Valerigionetnoel/Budget-tracker"
             readLink={"super-budget-tracker"}
+          />
+
+          <PortfolioCard
+            title="Head To Head"
+            description="Sports Betting game that puts Athletes from the same sport or different sports head to head. Built using TypeScript, React, and Go for the Backend"
+            githubLink="https://github.com/StunnaDawg/Head-To-Head"
+            readLink={"head-to-head"}
           />
         </div>
       </div>
