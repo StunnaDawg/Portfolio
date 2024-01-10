@@ -1,11 +1,28 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel"
+import { useEffect, useState } from "react"
 
 const ImgCarousel = ({ image1, image2, image3 }) => {
+  const [carouselWidth, setCarouselWidth] = useState(300)
+
+  useEffect(() => {
+    const handleResize = () => {
+      const newWidth = window.innerWidth >= 1280 ? 600 : 300
+      setCarouselWidth(newWidth)
+    }
+
+    handleResize()
+
+    window.addEventListener("resize", handleResize)
+    return () => {
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
+
   return (
     <div className="flex flex-col items-center">
       <Carousel
-        width={350}
+        width={carouselWidth}
         showArrows
         autoPlay
         useKeyboardArrows={true}

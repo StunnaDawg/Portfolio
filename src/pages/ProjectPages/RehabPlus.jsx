@@ -13,7 +13,8 @@ const RehabPlus = () => {
         and I believed Typescript would help me handle errors, and debug them making Development go smoother. Utilizing Typescript has been the best choice!"
         roleDescription="FullStack Developer"
         toolsDescription="TypeScript, React Native, React Navigation, Firebase, Firestore, Nativewind(A TailwindCSS library made for React Native), Expo Go"
-        projectDescription="Designed for orthopedic surgeons, physiotherapists, and patients, Rehab Plus is a post-surgical/injury recovery application. Rehab Plus uses Protocols to supply patients with a streamlined exercise routine for post-surgical/injury recovery"
+        projectDescription="Designed for orthopedic surgeons, physiotherapists, and patients, Rehab Plus is a post-surgical/injury recovery application. Rehab Plus uses Protocols to supply patients with a streamlined exercise routine for post-surgical/injury recovery. 
+        *NOTE* The client side of the application has yet to start development"
         imageLink1={RehabImage3}
         imageLink2={RehabImage1}
         imageLink3={RehabImage2}
