@@ -1,5 +1,7 @@
 import ProjectInfo from "../../components/ProjectInfo"
-import rehabDummyShot from "../../assets/RehabTestSceenShot.png"
+import RehabImage3 from "../../assets/Rehab3.png"
+import RehabImage2 from "../../assets/Rehab2.png"
+import RehabImage1 from "../../assets/Rehab1.png"
 
 const RehabPlus = () => {
   return (
@@ -12,10 +14,10 @@ const RehabPlus = () => {
         roleDescription="FullStack Developer"
         toolsDescription="TypeScript, React Native, React Navigation, Firebase, Firestore, Nativewind(A TailwindCSS library made for React Native), Expo Go"
         projectDescription="Designed for orthopedic surgeons, physiotherapists, and patients, Rehab Plus is a post-surgical/injury recovery application. Rehab Plus uses Protocols to supply patients with a streamlined exercise routine for post-surgical/injury recovery"
-        imageLink1={rehabDummyShot}
-        imageLink2={rehabDummyShot}
-        imageLink3={rehabDummyShot}
-        status={"On going"}
+        imageLink1={RehabImage3}
+        imageLink2={RehabImage1}
+        imageLink3={RehabImage2}
+        status={"ProtoType"}
         gitHub={"https://github.com/StunnaDawg/RehabPlus"}
       />
     </>
