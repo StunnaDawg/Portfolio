@@ -11,14 +11,16 @@ export const PortfolioCard = ({
 }) => {
   return (
     <div className="my-8 mx-10 border-4 p-8 md:mx-64">
-      <div className="m-9">
-        <h1 className="text-3xl font-bold underline">{title}</h1>
+      <div className="m-9 text-center">
+        <h1 className="text-3xl 2xl:text-5xl font-bold underline">{title}</h1>
       </div>
       <div>
         <img src={imgLink} alt={imgAlt} />
       </div>
       <div className="flex flex-row justify-center my-2">
-        <p className="text-center text-lg font-semibold">{description}</p>
+        <p className="text-center text-xl 2xl:text-3xl px-16 font-semibold">
+          {description}
+        </p>
       </div>
 
       <div className="flex flex-row justify-end mx-2">
