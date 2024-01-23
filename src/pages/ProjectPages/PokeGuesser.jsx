@@ -18,6 +18,7 @@ const PokeGuesser = () => {
         imageLink1={PokeImage1}
         imageLink2={PokeImage2}
         imageLink3={PokeImage3}
+        liveLink={"https://poke-guesser-sigma.vercel.app/login"}
       />
     </>
   )
