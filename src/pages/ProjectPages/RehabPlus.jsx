@@ -1,6 +1,6 @@
 import ProjectInfo from "../../components/ProjectInfo"
 import RehabImage3 from "../../assets/Rehab3.png"
-import RehabImage2 from "../../assets/Rehab2.png"
+import RehabImage2 from "../../assets/Rehab4.png"
 import RehabImage1 from "../../assets/Rehab1.png"
 
 const RehabPlus = () => {
