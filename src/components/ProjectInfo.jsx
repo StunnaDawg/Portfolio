@@ -20,7 +20,7 @@ const ProjectInfo = ({
       <div className="min-h-screen">
         <div className=" flex flex-col items-center p-7 bg-sky-600">
           <div className="flex flex-row justify-center items-center">
-            <h1 className="font-bold text-3xl mx-4">{title}</h1>
+            <h1 className="font-bold text-3xl lg:text-5xl mx-4">{title}</h1>
             <a href={gitHub}>
               <button>
                 <img src={githubLogo} className="w-12" />
@@ -51,14 +51,16 @@ const ProjectInfo = ({
             <div className="mb-4">
               <Section title={"Challenges"} content={challengeDescription} />
             </div>
-            <div className=" flex flex-row justify-center">
-              <h1 className="font-bold text-xl mb-3">ScreenShots</h1>
+            <div className=" flex flex-row justify-center mb-6">
+              <h1 className="font-bold text-2xl lg:text-4xl ">ScreenShots</h1>
             </div>
-            <ImgCarousel
-              image1={imageLink1}
-              image2={imageLink2}
-              image3={imageLink3}
-            />
+            <div className="items-center">
+              <ImgCarousel
+                image1={imageLink1}
+                image2={imageLink2}
+                image3={imageLink3}
+              />
+            </div>
           </div>
         </div>
       </div>

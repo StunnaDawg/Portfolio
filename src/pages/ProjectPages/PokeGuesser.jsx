@@ -1,6 +1,6 @@
 import ProjectInfo from "../../components/ProjectInfo"
 import PokeImage1 from "../../assets/PokeGuesser-5.png"
-import PokeImage2 from "../../assets/PokeGuesser-2.png"
+import PokeImage2 from "../../assets/PokeGuesser-42.png"
 import PokeImage3 from "../../assets/PokeGuesser-7.png"
 
 const PokeGuesser = () => {
