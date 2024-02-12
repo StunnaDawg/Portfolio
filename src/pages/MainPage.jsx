@@ -7,7 +7,7 @@ export const MainPage = () => {
   return (
     <>
       <div className="min-h-screen">
-        <div className=" flex-1 flex flex-col content-center items-center pt-8 pb-8 bg-sky-600">
+        <div className=" flex-1 flex flex-col content-center items-center pt-8 pb-8 bg-slate-400 border-b-2 border-black">
           <div>
             <img
               src={profilePic}
@@ -28,7 +28,7 @@ export const MainPage = () => {
           <h1 className="text-3xl font-bold my-6 xl:text-5xl 2xl:text-6xl">
             Hey!
           </h1>
-          <p className="mx-10  md:mx-48 text-center mb-7 text-xl font-semibold xl:text-2xl 2xl:text-3xl mx">
+          <p className="mx-10  md:mx-48 text-center mb-7 text-xl font-semibold xl:text-2xl 2xl:text-3xl">
             My name is Jonson! I am a Typescript/Javascript Developer who enjoys
             Web Development and Mobile Development! I enjoy working on the
             FrontEnd, but am proficient in Backend Development as well!

@@ -18,7 +18,7 @@ const ProjectInfo = ({
   return (
     <>
       <div className="min-h-screen">
-        <div className=" flex flex-col items-center p-7 bg-sky-600">
+        <div className=" flex flex-col items-center p-7 bg-slate-400">
           <div className="flex flex-row justify-center items-center">
             <h1 className="font-bold text-3xl lg:text-5xl mx-4">{title}</h1>
             <a href={gitHub}>
